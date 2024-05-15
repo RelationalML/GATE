@@ -1,4 +1,4 @@
-# GATE
+# GATE: How to Keep Out Intrusive Neighbors (ICML 2024)
 
 Experimental code for the paper 'GATE: How to Keep Out Itrusive Neighbors' to be published at ICML 2024
 
