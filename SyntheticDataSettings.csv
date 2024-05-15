@@ -1,0 +1,8 @@
+graphID,structure,numNodes,numFeats,featsMean,featsCovar,numClass,aggrIters,lastLayerDim,trainFrac,valFrac,testFrac,Notes
+21,ER_0.01,1000,2,0,identity,2,1,numFeats,0.5,0.25,0.25,
+22,ER_0.01,1000,2,0,identity,2,2,numFeats,0.5,0.25,0.25,
+23,ER_0.01,1000,2,0,identity,2,3,numFeats,0.5,0.25,0.25,
+24,Cora,1000,-,-,-,7,-,-,0.5,0.25,0.25,original labels and one-hot encoded features
+25,Cora,1000,-,-,-,7,-,-,0.5,0.25,0.25,random labels and one-hot encoded features
+26,ER_0.01,1000,-,-,-,2,-,-,0.5,0.25,0.25,random labels and one-hot encoded features
+27,ER_0.01,1000,-,-,-,8,-,-,0.5,0.25,0.25,random labels and one-hot encoded features

@@ -1,0 +1,10 @@
+expId,arch,runID,dataset,dataTransform,numLayers,hiddenDim,attnHeads,activation,weightSharing,optimizer,maxEpochs,initialLR,lrDecayFactor,lrDecayPatience,attnDropout,wghtDecay,initScheme,scalScheme,scalHP,useIdMap,useResLin,mulLastAttHead,initA1,initA2,linWghtSharing,bias,linLastLayer,hasOmega,omegaInitVal,linAggrSharing,Note
+1,GATE_S ,0,ogbn-arxiv,,12,256,1,relu,1,Adam,2000,0.001,1,,0,0,LLortho,,,0,0,,0,0,1,0,0,0,1,1,
+2,GATE_S ,1,ogbn-arxiv,,12,256,1,relu,1,Adam,2000,0.001,1,,0,0,LLortho,,,0,0,,0,0,1,0,0,0,1,1,
+3,GATE,0,ogbn-arxiv,,12,256,1,relu,0,Adam,2000,0.001,1,,0,0,LLortho,,,0,0,,0,0,0,0,0,0,1,1,
+4,GATE_S ,0,ogbn-products,,8,128,1,relu,1,Adam,2000,0.001,1,,0,0,LLortho,,,0,0,,0,0,1,0,0,0,1,1,
+5,GATE_S ,1,ogbn-products,,8,128,1,relu,1,Adam,2000,0.001,1,,0,0,LLortho,,,0,0,,0,0,1,0,0,0,1,1,
+6,GATE,0,ogbn-products,,8,128,1,relu,0,Adam,2000,0.001,1,,0,0,LLortho,,,0,0,,0,0,0,0,0,0,1,1,
+7,GATE_S ,0,ogbn-mag,,5,128,1,relu,1,Adam,2000,0.005,1,,0,0,LLortho,,,0,0,,0,0,1,0,0,0,1,1,
+8,GATE_S ,1,ogbn-mag,,5,128,1,relu,1,Adam,2000,0.005,1,,0,0,LLortho,,,0,0,,0,0,1,0,0,0,1,1,
+9,GATE ,0,ogbn-mag,,5,128,1,relu,0,Adam,2000,0.005,1,,0,0,LLortho,,,0,0,,0,0,0,0,0,0,1,1,
